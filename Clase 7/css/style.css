@@ -1,0 +1,31 @@
+header{
+    background-color: #E5E5E5
+}
+main{
+    max-width: 1041px;
+    margin: 50px auto;
+}
+img{
+    display: block;
+    margin: auto;
+    background-color: #e5e5e5;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    color:#005677;
+    background-color:#C4C4C4;
+    ;
+}
+h2{
+    color:#005677;
+    background-color:#C4C4C4;
+}
+p{
+    color: #FFFFFF;
+    background-color: #005677;
+}
+footer{
+    display: block;
+    margin: auto;
+}
