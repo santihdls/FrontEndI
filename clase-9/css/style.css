@@ -1,0 +1,56 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header-gris {
+    background-color: #222222;
+    color: white;
+}
+.menu {
+    background-color:#F0A83E;
+    color: white;
+}
+.banner-centrado {
+    text-align: center;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 520px;
+}
+.titulo {
+    font-size: 30px;
+}
+.descripcion {
+    font-size: 16px;
+}
+.destacados {
+    font-size: 40px;
+    color: #3C2313;
+}
+.categorias {
+    font-size: 15px;
+    color: #3C2313;
+}
+.titleprod {
+    font-size: 15px;
+    color: #3C2313;
+}
+.precios{
+    font-size: 15px;
+    color: #F0A83E;
+}
+footer{
+    background-color: #3C2313;
+    color: white;
+}
+h3{
+
+}
+.subtitle {
+    font-size: 10px;
+    color: #8A8787;
+
+}
+.derechos{
+    text-align: center;
+    background-color: #222222;
+    color: white;
+}

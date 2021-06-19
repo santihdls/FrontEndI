@@ -1,0 +1,24 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+img{
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+    width: 20%; height: 20%;
+}
+header.banner{
+    background-image:url(https://cdn.hipwallpaper.com/i/86/87/cvLJXz.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
