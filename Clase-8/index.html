@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Santiago Hernández</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="banner">
-        <h1>Santiago Hernández Lesmes</h1>
-        <img src="./img/Perfil SHL.jpg" alt="Perfil">
-        <h2>Conoce más sobre mí</h2>
-    </header>
+    <div class="contenedor">
+        <header class="banner">
+            <h1 class="name">Santiago Hernández Lesmes</h1>
+            <nav>
+                <a href="#datos">Datos personales</a>
+                <a href="./sobre-mi/sobre-mi.html">Conoce más de mí</a>
+                <a href="https://www.linkedin.com/in/s-hernandez-l/" target="_blank">Conecta</a>
+        </header>
+    </div>    
     <main>
+        <img src="./img/Perfil SHL.jpg" alt="Perfil">
         <ul>
-            <ul>DATOS PERSONALES
-                <li><b>Nombre completo:</b> Santiago Hernández Lesmes</li>
-                <li><b>Fecha de nacimiento:</b> 19 de enero de 1997</li>
-                <li><b>Lugar de nacimiento:</b> Bogotá, Colombia</li>
+            <i id="datos" class="fas fa-user-check"> DATOS PERSONALES</i>
+            <ul>
+                <li type="none"><b>Nombre completo:</b> Santiago Hernández Lesmes</li>
+                <li type="none"><b>Fecha de nacimiento:</b> 19 de enero de 1997</li>
+                <li type="none"><b>Lugar de nacimiento:</b> Bogotá, Colombia</li>
             </ul>
-            <ul>FORMACIÓN ACADÉMICA
-                <li><b>2015-2021:</b> Pontificia Universidad Javeriana, <em>Comunicación Social</em></li>
-                <li><b>2021-2023:</b> Digital House, <em>Certified Tech Developer</em></li>
+            <i id="formacion" class="fas fa-graduation-cap"> FORMACIÓN ACADÉMICA</i>
+            <ul>
+                <li type="none"><b>2015-2021:</b> Pontificia Universidad Javeriana, <em>Comunicación Social</em></li>
+                <li type="none"><b>2021-2023:</b> Digital House, <em>Certified Tech Developer</em></li>
             </ul>
-            <ul>EXPERIENCIA LABORAL
-                <li><b>Feb, 2021-actualmente</b> Community Manager Comunicación Interna</li>
-                <li><b>Ag, 2021</b></li>
+            <i id="experiencia" class="fas fa-briefcase"> EXPERIENCIA LABORAL</i>
+            <ul>
+                <li type="none"><b>Feb. 2021 - actualmente</b> Community Manager Comunicación Interna</li>
+                <li type="none"><b>Ag. 2020 - Feb. 2021 </b> Practicante Comunicación Interna</li>
+                <li type="none"><b>Jul. 2017 - Dic. 2019 </b> Monitor de postgrados</li>
             </ul>
         </ul>
     </main>

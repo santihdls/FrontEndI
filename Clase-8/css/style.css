@@ -1,6 +1,42 @@
 *{
     font-family: 'Roboto', sans-serif;
+    background-color: #141414;
 }
+header {
+    padding: 30px 0;
+}
+header.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.active{
+    color: #fff;
+}
+main{
+    align-items: center;
+    color: #aaa;
+    width: 80%;
+    max-width: 1041px;
+    margin: 50px auto; 
+}
+main i{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 1.25em;
+}
+
 h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -13,12 +49,8 @@ h2{
 }
 img{
     display:block;
-    margin:auto;
+    margin:auto; 
     border-radius: 50%;
     width: 20%; height: 20%;
 }
-header.banner{
-    background-image:url(https://cdn.hipwallpaper.com/i/86/87/cvLJXz.jpg);
-    background-repeat: repeat;
-    background-attachment: scroll;
-}
+
