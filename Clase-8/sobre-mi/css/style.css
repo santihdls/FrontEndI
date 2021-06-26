@@ -51,7 +51,7 @@ main{
     font-weight: normal;
     font-size: 10em;
     line-height: 1.75em;
-    /* max-width: 50%; */
+    max-width: 50%;
     margin-bottom: 1.25em;
 }
 .sobre-mi .boton{
