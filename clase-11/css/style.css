@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body > *{
+    padding: 20px;
+}
+
+header, footer{
+    background-color: #222222;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    width: 234px;
+    height: 80px;
+}
+
+header, footer nav{
+    gap: 15px;
+    font-size: 16px;
+    color: #F3F3F3;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 13px;
+    padding: 0;
+}
+
+
+main{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+    gap: 10px;
+}
+
+h2 {
+    color: #FC200C;
+    font-weight: bold;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+main section{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+}
+
+main .delivery {
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.podio{
+    background-color: #FFFFFF;
+}
+
+section.podio h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+section.podio ol{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.podio li{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.podio div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+footer ul{
+    flex-direction: column;
+}
