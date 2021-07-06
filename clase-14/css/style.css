@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: roboto;
+    font-style: normal;
+}
+
+header .bardiscount{
+    width: auto;
+    height: 38px;
+    background: #D1891C;
+    font-size: 15px;
+    padding: 10px 67px;
+}
+
+header h1{
+    width: auto;
+    height: 101px;
+    background: #00669F;
+    color: #F3F3F3;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0px;
+    z-index: 50px;
+    padding: 27px 67px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+}
+
+main .card{
+    width: 300px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;   
+    margin: 20px 0;
+    position: relative;
+}
+
+main .card .fondo{
+    margin-top: 0px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+}
+main .card .icono {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    z-index: 40;
+}
+main .card .foto-batman {
+    position: absolute;
+    border-radius: 60px;
+    top: 128px; 
+    left: 90px;
+    right: 90px;
+}
+
+main .card h2{
+    font-size: 30px;
+    margin: 74px 0 0 0;
+}
+
+main .card p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 16px 0;
+}
+
+main Button {
+    background-color: #00669F;
+    color: #F3F3F3;
+    margin: 15px 85px;
+    padding: 12px 40px;
+    border: none;
+}
+
+
+main .card .foto-mujermaravilla, .foto-superman, .foto-harley {
+    position: absolute;
+    border-radius: 190px;
+    top: 128px; 
+    left: 85px;
+    right: 500px;
+    width: 130px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: #00669F;
+    color: #F3F3F3;
+    font-size: 16px;
+    width: auto;
+    height: 51px;
+    padding: 16px;
+}
+
+footer img{
+    width: 100px;
+}
+
+@media (min-width: 460px) {
+    main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+}
